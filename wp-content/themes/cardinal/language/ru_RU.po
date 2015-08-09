@@ -1,0 +1,2189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Swift Ideas <ed@swiftideas.net>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+msgid " Comments"
+msgstr "Комментарии"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-detail.php:313
+#: cardinal/swift-framework/content/sf-campaign-detail.php:199
+#: cardinal/comments.php:27
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-woocommerce.php:1
+msgid "% items"
+msgstr "% товара"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+#, fuzzy
+msgid "%1$s"
+msgstr "Автор: %1$s"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-detail.php:313
+#: cardinal/swift-framework/content/sf-campaign-detail.php:199
+#: cardinal/swift-framework/core/sf-functions.php:1 cardinal/comments.php:27
+msgid "0 Comments"
+msgstr "0 Комментариев"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-woocommerce.php:1
+msgid "0 items"
+msgstr "0 штук"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/swift-framework/core/sf-woocommerce.php:226
+#, fuzzy
+msgid "0 items in the cart"
+msgstr "0 штук"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-detail.php:313
+#: cardinal/swift-framework/content/sf-campaign-detail.php:199
+#: cardinal/swift-framework/core/sf-functions.php:1 cardinal/comments.php:27
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-woocommerce.php:1
+msgid "1 item"
+msgstr "1 товар"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-page-heading.php:232
+msgid "404"
+msgstr "404"
+
+#. Text in function
+#: cardinal/swift-framework/layout/404.php:1
+msgid "404_page_content"
+msgstr "404_page_content"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-page-heading.php:198
+msgid "<h1>%1$s result for <span>%2$s</span></h1>"
+msgstr "<h1>Найдена %1$s запись по запросу \"<span>%2$s</span>\"</h1>"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-page-heading.php:200
+msgid "<h1>%1$s results for <span>%2$s</span></h1>"
+msgstr "<h1>Найдено записей: %1$s, по запросу \"<span>%2$s</span>\"</h1>"
+
+#. Text in function
+#: cardinal/comments.php:37 cardinal/comments.php:46
+msgid "<i class=\"ss-navigateleft\"></i> Previous"
+msgstr "<i class=\"ss-navigateleft\"></i> Предыдущая"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-pagination.php:1
+msgid "<i class='ss-navigateleft'></i> Previous"
+msgstr "<i class='ss-navigateleft'></i> Предыдущая"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+#, fuzzy
+msgid ""
+"<span class=\"author\">By <a href=\"%2$s\" rel=\"author\" itemprop=\"author"
+"\">%1$s</a></span> <span>in %3$s</span>"
+msgstr ""
+"Опубликовано: <a href=\"%2$s\" rel=\"author\" itemprop=\"author\" class=\"fn"
+"\">%1$s</a> / Дата: <span class=\"date updated\">%3$s</span> в категориях: "
+"%4$s"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+#, fuzzy
+msgid ""
+"<span class=\"author\">By <a href=\"%2$s\" rel=\"author\" itemprop=\"author"
+"\">%1$s</a></span> <span>in %3$s</span> <time class=\"date\" datetime=\"%4$s"
+"\">%5$s</time>"
+msgstr ""
+"Опубликовано: <a href=\"%2$s\" rel=\"author\" itemprop=\"author\" class=\"fn"
+"\">%1$s</a> / Дата: <span class=\"date updated\">%3$s</span> в категориях: "
+"%4$s"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-detail.php:397
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+#, fuzzy
+msgid ""
+"<span class=\"author\">By <a href=\"%2$s\" rel=\"author\" itemprop=\"author"
+"\">%1$s</a></span> in %3$s"
+msgstr ""
+"Опубликовано: <a href=\"%2$s\" rel=\"author\" itemprop=\"author\" class=\"fn"
+"\">%1$s</a> / Дата: <span class=\"date updated\">%3$s</span> в категориях: "
+"%4$s"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-detail.php:395
+#: cardinal/swift-framework/content/sf-campaign-detail.php:257
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+#, fuzzy
+msgid ""
+"<span class=\"author\">By <a href=\"%2$s\" rel=\"author\" itemprop=\"author"
+"\">%1$s</a></span> in %3$s on <time datetime=\"%4$s\">%5$s</time>"
+msgstr ""
+"Опубликовано: <a href=\"%2$s\" rel=\"author\" itemprop=\"author\" class=\"fn"
+"\">%1$s</a> / Дата: <span class=\"date updated\">%3$s</span> в категориях: "
+"%4$s"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-detail.php:73
+#, fuzzy
+msgid ""
+"<span class=\"vcard author\">By <span itemprop=\"author\" class=\"fn\">%1$s</"
+"span></span> in %2$s"
+msgstr ""
+"Опубликовано: <a href=\"%2$s\" rel=\"author\" itemprop=\"author\" class=\"fn"
+"\">%1$s</a> / Дата: <span class=\"date updated\">%3$s</span> в категориях: "
+"%4$s"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-detail.php:71
+#, fuzzy
+msgid ""
+"<span class=\"vcard author\">By <span itemprop=\"author\" class=\"fn\">%1$s</"
+"span></span> in %2$s <time class=\"date updated\" datetime=\"%3$s\" itemprop="
+"\"datePublished\">%4$s</time>"
+msgstr ""
+"Опубликовано: <a href=\"%2$s\" rel=\"author\" itemprop=\"author\" class=\"fn"
+"\">%1$s</a> / Дата: <span class=\"date updated\">%3$s</span> в категориях: "
+"%4$s"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/blog-grid-old.php:1
+msgid "<span>By</span> <span rel=\"author\" itemprop=\"author\">%1$s</span>"
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+msgid "<span>In %1$s</span> <time class=\"date\" datetime=\"%2$s\">%3$s</time>"
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/wishlist.php:122
+msgid "Actions"
+msgstr "Действия"
+
+#. Text in function
+#: cardinal/woocommerce/loop/add-to-cart.php:22
+#, fuzzy
+msgid "Add to cart"
+msgstr "Просмотреть корзину"
+
+#. Text in function
+#: cardinal/woocommerce/loop/add-to-cart.php:22
+#, fuzzy
+msgid "Added"
+msgstr "Товар добавлен в корзину"
+
+#. Text in function
+#: cardinal/woocommerce/single-product/tabs/additional-information.php:1
+msgid "Additional Information"
+msgstr "Дополнительная информация"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1616
+#, fuzzy
+msgid "Address"
+msgstr "Адресная книга"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/my-account.php:45
+msgid "Address Book"
+msgstr "Адресная книга"
+
+#. Text in echo
+#: cardinal/woocommerce/loop/result-count.php:55
+msgid "All"
+msgstr "Все"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-directory.php:1
+#, fuzzy
+msgid "All Categories"
+msgstr "Рубрики"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-directory.php:1
+#, fuzzy
+msgid "All Locations"
+msgstr "Все"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-campaign-detail.php:60
+msgid "All funds will be collected on %1$s."
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-campaign-detail.php:60
+msgid "All pledges will be collected automatically until %1$s."
+msgstr ""
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:335
+msgid "All posts loaded"
+msgstr "Все записи загружены"
+
+#. Text in echo
+#: cardinal/swift-framework/layout/search.php:44
+msgid "Alternatively, you can browse the sitemap below."
+msgstr "Кроме того, ниже вы можете просмотреть карту сайта."
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-campaign-detail.php:307
+msgid "Anonymous"
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-login.php:100
+msgid "Anti-spam"
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "Any"
+msgstr "Любой"
+
+#. Text in echo
+#: cardinal/woocommerce/cart/cart.php:132
+msgid "Apply Coupon"
+msgstr ""
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-page-heading.php:212
+#: cardinal/swift-framework/core/sf-page-heading.php:214
+#: cardinal/swift-framework/core/sf-page-heading.php:216
+msgid "Archive for"
+msgstr "Архив для"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-shortcodes.php:1
+#: cardinal/swift-framework/content/sf-blog.php:1
+msgid "Archives"
+msgstr "Архивы"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+#: cardinal/swift-framework/page-builder/shortcodes/blog-grid-old.php:1
+#, fuzzy
+msgid "Article"
+msgstr "Поделиться этой страницей:"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-comments.php:27
+msgid "Author"
+msgstr "Автор"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-page-heading.php:222
+msgid "Author archive for"
+msgstr "Архив автора - "
+
+#. Text in function
+#: cardinal/woocommerce/cart/cart.php:110
+msgid "Available on backorder"
+msgstr ""
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-campaign-detail.php:58
+#, fuzzy
+msgid "Back this project"
+msgstr "Просмотреть проект"
+
+#. Text in echo
+#: cardinal/bbpress/loop-replies.php:21
+#, fuzzy
+msgid "Back to forum"
+msgstr "Вернуться к моей учетной записи"
+
+#. Text in echo
+#: cardinal/woocommerce/order/order-details.php:34
+#: cardinal/woocommerce/wishlist.php:93
+#: cardinal/woocommerce/myaccount/form-edit-address.php:40
+msgid "Back to my account"
+msgstr "Вернуться к моей учетной записи"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-campaign-detail.php:282
+msgid "Backers"
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/order/order-details.php:159
+#: cardinal/woocommerce/myaccount/form-edit-address.php:14
+#, fuzzy
+msgid "Billing Address"
+msgstr "Адресная книга"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-page-heading.php:225
+msgid "Blog Archives"
+msgstr "Архивы Блога"
+
+#. Text in function
+#: cardinal/swift-framework/widgets/widget-mostloved.php:37
+msgid "By %1$s"
+msgstr "Автор: %1$s"
+
+#. Text in function
+#: cardinal/swift-framework/widgets/widget-posts.php:82
+#, fuzzy
+msgid "By %1$s on %2$s"
+msgstr "%1$s - %2$s"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-comments.php:67
+#, fuzzy
+msgid "By %1$s on %2$s at %3$s"
+msgstr "%1$s - %2$s"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+#, fuzzy
+msgid "By <a href=\"%2$s\" rel=\"author\" itemprop=\"author\">%1$s</a>"
+msgstr "<a href=\"%2$s\">%1$s</a>"
+
+#. Text in echo
+#: cardinal/woocommerce/cart/shipping-calculator.php:22
+#, fuzzy
+msgid "Calculate Shipping"
+msgstr "Информация о доставке"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-shortcodes.php:1
+#: cardinal/swift-framework/content/sf-blog.php:1
+msgid "Categories"
+msgstr "Рубрики"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-post-detail.php:306
+#: cardinal/swift-framework/content/sf-campaign-detail.php:192
+#, fuzzy
+msgid "Categories:"
+msgstr "Рубрики"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1604
+#, fuzzy
+msgid "Category"
+msgstr "Категория продукта"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/my-account.php:47
+#, fuzzy
+msgid "Change Details"
+msgstr "Детали"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+#, fuzzy
+msgid "Choose a Category"
+msgstr "Категория продукта"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+msgid "Choose a Location"
+msgstr ""
+
+#. Text in function
+#: cardinal/woocommerce/single-product/add-to-cart/variable.php:25
+msgid "Choose an option"
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/cart/shipping-calculator.php:72
+msgid "City"
+msgstr ""
+
+#. Text in function
+#: cardinal/woocommerce/single-product/add-to-cart/variable.php:71
+#, fuzzy
+msgid "Clear selection"
+msgstr "Вы выбрали"
+
+#. Text in function
+#: cardinal/comments.php:65
+msgid "Click here to cancel the reply"
+msgstr "Нажмите, чтобы отменить ответ"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-portfolio-detail.php:205
+#, fuzzy
+msgid "Client:"
+msgstr "Клиент:"
+
+#. Text in function
+#: cardinal/includes/sf-theme-functions.php:1
+msgid "Color Customizer"
+msgstr "Настроить цвета"
+
+#. Text in function
+#: cardinal/comments.php:65
+msgid "Comment"
+msgstr "Комментарий"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-campaign-detail.php:185
+#, fuzzy
+msgid "Contact Author"
+msgstr "Автор"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-woocommerce.php:365
+#: cardinal/swift-framework/core/sf-woocommerce.php:373
+msgid "Contact Us"
+msgstr "Контакты"
+
+#. Text in echo
+#: cardinal/woocommerce/checkout/thankyou.php:74
+#: cardinal/woocommerce/checkout/thankyou.php:86
+#: cardinal/woocommerce/cart/cart.php:151
+msgid "Continue shopping"
+msgstr "Продолжить покупки"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-campaign-detail.php:100
+msgid "Contribute Now"
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/cart/cart.php:132
+#, fuzzy
+msgid "Coupon code"
+msgstr "Код купона"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1648
+#, fuzzy
+msgid "Create"
+msgstr "Создать учетную запись"
+
+#. Text in echo
+#: cardinal/woocommerce/wishlist.php:96
+#, fuzzy
+msgid "Create Account / Login"
+msgstr "Создать учетную запись"
+
+#. Text in echo
+#: cardinal/buddypress/groups/index.php:56
+#, fuzzy
+msgid "Create a Group"
+msgstr "Создать учетную запись"
+
+#. Text in echo
+#: cardinal/woocommerce/order/order-details.php:141
+#, fuzzy
+msgid "Customer details"
+msgstr "Детали"
+
+#. Text in echo
+#: cardinal/woocommerce/checkout/thankyou.php:53
+#: cardinal/swift-framework/content/sf-portfolio-detail.php:207
+#, fuzzy
+msgid "Date:"
+msgstr ""
+"Опубликовано: <a href=\"%2$s\" rel=\"author\" itemprop=\"author\" class=\"fn"
+"\">%1$s</a> / Дата: <span class=\"date updated\">%3$s</span> в категориях: "
+"%4$s"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Day"
+msgstr "День"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Days"
+msgstr "Дней"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1599
+#: cardinal/woocommerce/cart/cart.php:35
+#: cardinal/woocommerce/single-product/tabs/tabs.php:1
+msgid "Description"
+msgstr "Описание"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-campaign-detail.php:100
+msgid "Donate Now"
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-detail.php:407
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+#, fuzzy
+msgid "Download"
+msgstr "Мои загрузки"
+
+#. Text in function
+#: cardinal/woocommerce/order/order-details.php:117
+#, fuzzy
+msgid "Download file%s"
+msgstr "%1$s - %2$s"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-comments.php:39
+#: cardinal/swift-framework/core/sf-comments.php:67
+msgid "Edit"
+msgstr "Редактировать"
+
+#. Text in function
+#: cardinal/woocommerce/myaccount/my-address.php:80
+msgid "Edit address"
+msgstr "Изменить адрес"
+
+#. Text in function
+#: cardinal/comments.php:65
+msgid "Email"
+msgstr "Email"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-login.php:90
+#, fuzzy
+msgid "Email address"
+msgstr "Email"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-woocommerce.php:417
+#: cardinal/swift-framework/core/sf-woocommerce.php:437
+msgid "Email customer care"
+msgstr "Email-поддержка"
+
+#. Text in function
+#: cardinal/woocommerce/order/order-details.php:144
+#, fuzzy
+msgid "Email:"
+msgstr "Email"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#, fuzzy
+msgid "Enter text to search"
+msgstr "Поиск"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-woocommerce.php:426
+#: cardinal/swift-framework/core/sf-woocommerce.php:485
+msgid "F.A.Q.'s"
+msgstr "F.A.Q."
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1634
+msgid "Featured Image"
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-pagination.php:1
+msgid "First Page"
+msgstr "Первая страница"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-menus.php:1
+msgid "Footer Menu"
+msgstr "Меню в Футере"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-directory.php:1
+#, fuzzy
+msgid "Found"
+msgstr "Поиск не дал результатов, попробуйте ввести другой запрос."
+
+#. Text in function
+#: cardinal/woocommerce/content-product.php:158
+#: cardinal/woocommerce/single-product/product-image.php:27
+msgid "Free"
+msgstr "Бесплатно"
+
+#. Text in function
+#: cardinal/woocommerce/myaccount/my-account.php:21
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+msgid "Funded"
+msgstr ""
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-campaign-detail.php:71
+msgid "Funding Ends"
+msgstr ""
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1618
+msgid "Generate Coordinates"
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/swift-framework/core/sf-woocommerce.php:234
+msgid "Go to the shop"
+msgstr "Перейти в магазин"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "Go to your wishlist"
+msgstr "Перейти в список желаний"
+
+#. Text in function
+#: cardinal/woocommerce/myaccount/my-account.php:21
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Hour"
+msgstr "Час"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Hours"
+msgstr "Часов"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-detail.php:69
+msgid ""
+"In %1$s on <time datetime=\"%2$s\" itemprop=\"datePublished\" class=\"updated"
+"\">%3$s</time>"
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-detail.php:393
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+msgid "In %1$s on <time datetime=\"%2$s\">%3$s</time>"
+msgstr ""
+
+#. Text in function
+#: cardinal/woocommerce/wishlist.php:171
+msgid "In Stock"
+msgstr "В наличии"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/blog-grid.php:1
+#: cardinal/swift-framework/content/sf-blog.php:1
+#: cardinal/swift-framework/page-builder/shortcodes/blog-grid-old.php:1
+msgid "Instagram"
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/order/order-details.php:45
+#: cardinal/woocommerce/cart/cart.php:34 cardinal/woocommerce/wishlist.php:117
+msgid "Item"
+msgstr "Товар"
+
+#. Text in function
+#: cardinal/woocommerce/loop/add-to-cart.php:22
+msgid "Item added to bag"
+msgstr "Товар добавлен в корзину"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "Language"
+msgstr "Язык"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-pagination.php:1
+msgid "Last Page"
+msgstr "Последняя страница"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1622
+msgid "Latitude Coordinate"
+msgstr ""
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-campaign-detail.php:69
+msgid "Launched"
+msgstr ""
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-woocommerce.php:366
+#: cardinal/swift-framework/core/sf-woocommerce.php:387
+msgid "Leave Feedback"
+msgstr "Оставить Отзыв"
+
+#. Text in function
+#: cardinal/comments.php:65
+msgid "Leave a reply"
+msgstr "Оставить комментарий"
+
+#. Text in function
+#: cardinal/comments.php:65
+msgid "Leave a reply to %s"
+msgstr "Написать ответ к %s"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-blog.php:1
+msgid "Load More"
+msgstr "Показать еще"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:334
+msgid "Loading"
+msgstr "Загрузка"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-campaign-detail.php:74
+#: cardinal/swift-framework/core/sf-functions.php:1610
+#, fuzzy
+msgid "Location"
+msgstr "Действия"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-comments.php:42
+msgid "Log in to reply."
+msgstr "Чтобы ответить - авторизуйтесь."
+
+#. Text in function
+#: cardinal/comments.php:65
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Вы авторизованы как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log "
+"out of this account\">Выйти?</a>"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-login.php:53
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "Login"
+msgstr "Войти"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1626
+msgid "Longitude Coordinate"
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-login.php:59
+#, fuzzy
+msgid "Lost your password?"
+msgstr "Изменить пароль"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-menus.php:1
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#, fuzzy
+msgid "Menu"
+msgstr "Меню в Футере"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Min"
+msgstr "Мин"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Mins"
+msgstr "Минут"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-menus.php:1
+msgid "Mobile Menu"
+msgstr "Мобильное  меню"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Month"
+msgstr "Месяц"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Months"
+msgstr "Месяцев"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/testimonial.php:1
+#: cardinal/swift-framework/page-builder/shortcodes/testimonial-carousel.php:1
+msgid "More"
+msgstr "Ещё"
+
+#. Text in function
+#: cardinal/swift-framework/widgets/widget-mostloved.php:1
+msgid "Most Loved Items"
+msgstr "Самые популярные товары"
+
+#. Text in echo
+#: cardinal/woocommerce/checkout/thankyou.php:39
+#: cardinal/woocommerce/order/order-details.php:32
+#: cardinal/woocommerce/myaccount/my-account.php:38
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/woocommerce/wishlist.php:90
+#: cardinal/woocommerce/myaccount/form-edit-address.php:38
+msgid "My Account"
+msgstr "Мой аккаунт"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/my-account.php:41
+msgid "My Downloads"
+msgstr "Мои загрузки"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/my-account.php:40
+msgid "My Orders"
+msgstr "Мои заказы"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/my-account.php:43
+msgid "My Wishlist"
+msgstr "Мой список желаний"
+
+#. Text in echo
+#: cardinal/woocommerce/order/order-details.php:177
+#, fuzzy
+msgid "N/A"
+msgstr ""
+"\\t\\t\\t\\t\\t<span class=\"unapproved\">Ваша обратная ссылка ожидает "
+"модерации.</span>\\n"
+
+#. Text in function
+#: cardinal/comments.php:65
+msgid "Name"
+msgstr "Имя"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-woocommerce.php:365
+msgid "Need Help?"
+msgstr "Нужна помощь?"
+
+#. Text in function
+#: cardinal/woocommerce/content-product.php:158
+#: cardinal/woocommerce/single-product/product-image.php:27
+msgid "New"
+msgstr "Новое"
+
+#. Text in function
+#: cardinal/swift-framework/swift-slider/inc/ss-display.php:80
+msgid "Next"
+msgstr "Следующая"
+
+#. Text in function
+#: cardinal/comments.php:37 cardinal/comments.php:46
+msgid "Next <i class=\"ss-navigateright\"></i>"
+msgstr "Следующая <i class=\"ss-navigateright\"></i>"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-pagination.php:1
+msgid "Next <i class='ss-navigateright'></i>"
+msgstr "Следующая <i class='ss-navigateright'></i>"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-post-detail.php:369
+#, fuzzy
+msgid "Next Article"
+msgstr "Поделиться этой страницей:"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-campaign-detail.php:242
+#, fuzzy
+msgid "Next Project"
+msgstr "Следующая"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/tabs.php:1
+msgid "Next slide"
+msgstr "Следующий слайд"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-campaign-detail.php:286
+#, fuzzy
+msgid "No backers yet, be the first!"
+msgstr "Первая страница"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "No results"
+msgstr "Ничего не найдено"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-directory.php:1
+#, fuzzy
+msgid "No results found, please try again."
+msgstr "Поиск не дал результатов, попробуйте ввести другой запрос."
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "No search results could be found, please try another query."
+msgstr "Поиск не дал результатов, попробуйте ввести другой запрос."
+
+#. Text in function
+#: cardinal/swift-framework/swift-slider/inc/ss-display.php:80
+msgid "No slides found, please add some!"
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-login.php:72
+msgid "Not registered? No problem"
+msgstr "Еще не зарегистрированы? Нет проблем"
+
+#. Text in echo
+#: cardinal/woocommerce/order/order-details.php:134
+#, fuzzy
+msgid "Order Again"
+msgstr "Ваш заказ"
+
+#. Text in echo
+#: cardinal/woocommerce/order/order-details.php:41
+#, fuzzy
+msgid "Order Details"
+msgstr "Детали"
+
+#. Text in echo
+#: cardinal/woocommerce/checkout/thankyou.php:49
+#, fuzzy
+msgid "Order:"
+msgstr "Ваш заказ"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "Other"
+msgstr ""
+
+#. Text in function
+#: cardinal/woocommerce/content-product.php:158
+#: cardinal/woocommerce/wishlist.php:171
+#: cardinal/woocommerce/single-product/product-image.php:27
+msgid "Out of Stock"
+msgstr "Распродано"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-post-detail.php:246
+#, fuzzy
+msgid "Overall"
+msgstr "Общая оценка"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-menus.php:1
+#, fuzzy
+msgid "Overlay Menu"
+msgstr "Меню в Футере"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+msgid "Page %s"
+msgstr "Страница %s"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-shortcodes.php:1
+msgid "Pages"
+msgstr "Страницы"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-login.php:45
+#: cardinal/woocommerce/myaccount/form-login.php:95
+#, fuzzy
+msgid "Password"
+msgstr "Изменить пароль"
+
+#. Text in echo
+#: cardinal/woocommerce/checkout/thankyou.php:37
+#, fuzzy
+msgid "Pay"
+msgstr "День"
+
+#. Text in echo
+#: cardinal/woocommerce/checkout/thankyou.php:62
+#, fuzzy
+msgid "Payment method:"
+msgstr "Способ оплаты"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1642
+#, fuzzy
+msgid "Pin Button Text"
+msgstr "ss_button_text"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1630
+#, fuzzy
+msgid "Pin Image"
+msgstr "Страница"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1638
+msgid "Pin Link"
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "Please assign a menu to the Main Menu in Appearance > Menus"
+msgstr ""
+"Пожалуйста, назначьте \"Главное Меню\" на странице - \"Внешний вид > Меню\""
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#, fuzzy
+msgid "Please assign a menu to the Top Bar Menu in Appearance > Menus"
+msgstr ""
+"Пожалуйста, назначьте \"Главное Меню\" на странице - \"Внешний вид > Меню\""
+
+#. Text in echo
+#: cardinal/woocommerce/checkout/thankyou.php:29
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/checkout/thankyou.php:29
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1591
+msgid "Please fill all the fields"
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+msgid "Please provide your Twitter username"
+msgstr "Пожалуйста, укажите Ваше имя пользователя в Twitter"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid ""
+"Please select a page for the Contact Slideout in Theme Options > Header "
+"Options"
+msgstr ""
+
+#. Text in echo
+#: cardinal/swift-framework/layout/search.php:40
+msgid "Please use the form below to search again."
+msgstr "Пожалуйста, для повторного поиска используйте форму ниже."
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+msgid "Pledged"
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-campaign-detail.php:49
+#, fuzzy
+msgid "Pledged of %s Goal"
+msgstr "%1$s - %2$s"
+
+#. Text in function
+#: cardinal/comments.php:65
+msgid "Post comment"
+msgstr "Комментировать"
+
+#. Text in echo
+#: cardinal/woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / Zip"
+msgstr ""
+
+#. Text in echo
+#: cardinal/bbpress/loop-replies.php:24
+#, fuzzy
+msgid "Posted in:"
+msgstr "Опубликовано"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-shortcodes.php:1
+msgid "Posts"
+msgstr "Записи"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-page-heading.php:210
+msgid "Posts tagged with"
+msgstr "Записи с меткой "
+
+#. Text in function
+#: cardinal/swift-framework/swift-slider/inc/ss-display.php:80
+#, fuzzy
+msgid "Previous"
+msgstr "Предыдущий слайд"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-post-detail.php:390
+#, fuzzy
+msgid "Previous Article"
+msgstr "Поделиться этой страницей:"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-campaign-detail.php:255
+#, fuzzy
+msgid "Previous Project"
+msgstr "Просмотреть проект"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/tabs.php:1
+msgid "Previous slide"
+msgstr "Предыдущий слайд"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+msgid "Price"
+msgstr "Цена"
+
+#. Text in echo
+#: cardinal/woocommerce/cart/cart.php:145
+msgid "Proceed to Checkout"
+msgstr "Оплатить"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/swift-framework/core/sf-woocommerce.php:220
+msgid "Proceed to checkout"
+msgstr "Оплатить"
+
+#. Text in echo
+#: cardinal/woocommerce/order/order-details.php:46
+#, fuzzy
+msgid "Product"
+msgstr "Категория продукта"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+msgid "Product Category"
+msgstr "Категория продукта"
+
+#. Text in echo
+#: cardinal/woocommerce/wishlist.php:118
+msgid "Product Name"
+msgstr "Наименование"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-woocommerce.php:245
+msgid "Product added to wishlist."
+msgstr "Товар добавлен в список желаний."
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-page-heading.php:220
+#, fuzzy
+msgid "Projects by"
+msgstr "Похожие проекты"
+
+#. Text in echo
+#: cardinal/woocommerce/cart/cart.php:130
+msgid "Promotional Code"
+msgstr "Код купона"
+
+#. Text in echo
+#: cardinal/woocommerce/order/order-details.php:47
+#: cardinal/woocommerce/cart/cart.php:37
+msgid "Quantity"
+msgstr "Количество"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/swift-framework/core/sf-woocommerce.php:203
+msgid "Quantity:"
+msgstr "Количество:"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-blog.php:1
+msgid "RSS"
+msgstr "RSS"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-products.php:1
+#: cardinal/woocommerce/content-single-product.php:111
+#: cardinal/swift-framework/core/sf-woocommerce.php:1
+msgid "Rated %s out of 5"
+msgstr ""
+
+#. Text in function
+#: cardinal/woocommerce/loop/add-to-cart.php:17
+#: cardinal/woocommerce/loop/add-to-cart.php:22
+#, fuzzy
+msgid "Read More"
+msgstr "Подробнее"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-formats.php:1
+msgid "Read more"
+msgstr "Подробнее"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-login.php:107
+msgid "Register"
+msgstr "Регистрация"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-login.php:35
+msgid "Registered customers"
+msgstr "Зарегистрированные клиенты"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-detail.php:407
+msgid "Related Articles"
+msgstr "Похожие статьи"
+
+#. Text in echo
+#: cardinal/woocommerce/single-product/related.php:55
+#, fuzzy
+msgid "Related Products"
+msgstr "Похожие статьи"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-portfolio-detail.php:255
+msgid "Related Projects"
+msgstr "Похожие проекты"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-login.php:55
+msgid "Remember me"
+msgstr ""
+
+#. Text in function
+#: cardinal/woocommerce/cart/cart.php:110
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/swift-framework/core/sf-woocommerce.php:206
+#, fuzzy
+msgid "Remove this item"
+msgstr "Товар"
+
+#. Text in echo
+#: cardinal/woocommerce/wishlist.php:190
+msgid "Remove this product"
+msgstr "Удалить этот товар"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-comments.php:42
+msgid "Reply"
+msgstr "Ответить"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-woocommerce.php:423
+#: cardinal/swift-framework/core/sf-woocommerce.php:469
+msgid "Returns & exchange"
+msgstr "Возврат и обмен"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-post-detail.php:213
+#, fuzzy
+msgid "Review"
+msgstr "Написать отзыв"
+
+#. Text in function
+#: cardinal/woocommerce/content-product.php:158
+#: cardinal/woocommerce/single-product/product-image.php:27
+#, fuzzy
+msgid "Sale!"
+msgstr "Поделиться"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-edit-address.php:64
+#, fuzzy
+msgid "Save Address"
+msgstr "Адресная книга"
+
+#. Text in echo
+#: cardinal/swift-framework/layout/search.php:42
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/swift-framework/layout/404.php:10
+#: cardinal/swift-framework/content/sf-blog.php:1
+#: cardinal/swift-framework/core/sf-directory.php:1
+msgid "Search"
+msgstr "Поиск"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Sec"
+msgstr "Сек"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Secs"
+msgstr "Секунд"
+
+#. Text in echo
+#: cardinal/woocommerce/cart/shipping-calculator.php:28
+msgid "Select a country&hellip;"
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/cart/shipping-calculator.php:52
+msgid "Select a state&hellip;"
+msgstr ""
+
+#. Text in function
+#: cardinal/woocommerce/loop/add-to-cart.php:22
+#, fuzzy
+msgid "Select options"
+msgstr "Настройки темы"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-post-detail.php:407
+#: cardinal/swift-framework/content/sf-campaign-detail.php:1
+#: cardinal/swift-framework/content/sf-campaign-detail.php:145
+#: cardinal/swift-framework/content/sf-portfolio-detail.php:216
+#: cardinal/swift-framework/layout/single-gallery.php:1
+#: cardinal/swift-framework/core/sf-shortcodes.php:1
+#: cardinal/swift-framework/core/sf-woocommerce.php:352
+#, fuzzy
+msgid "Share this"
+msgstr "Поделиться"
+
+#. Text in echo
+#: cardinal/woocommerce/order/order-details.php:174
+#: cardinal/woocommerce/myaccount/form-edit-address.php:14
+#, fuzzy
+msgid "Shipping Address"
+msgstr "Информация о доставке"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-woocommerce.php:420
+#: cardinal/swift-framework/core/sf-woocommerce.php:453
+msgid "Shipping information"
+msgstr "Информация о доставке"
+
+#. Text in echo
+#: cardinal/woocommerce/wishlist.php:95
+#, fuzzy
+msgid "Shop"
+msgstr "Перейти в магазин"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-portfolio.php:1
+#: cardinal/swift-framework/content/sf-galleries.php:1
+#: cardinal/swift-framework/content/sf-blog.php:1
+#, fuzzy
+msgid "Show all"
+msgstr "Все"
+
+#. Text in function
+#: cardinal/woocommerce/loop/result-count.php:36
+msgid "Showing %1$d-%2$d of %3$d products"
+msgstr "Показать %1$d-%2$d of %3$d товары"
+
+#. Text in function
+#: cardinal/woocommerce/loop/result-count.php:36
+msgid "Showing all %d products"
+msgstr "Показаны все продукты (%d)"
+
+#. Text in function
+#: cardinal/woocommerce/loop/result-count.php:36
+#, fuzzy
+msgid "Showing the single product"
+msgstr "Показаны все продукты (%d)"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "Sign Out"
+msgstr "Выйти"
+
+#. Text in echo
+#: cardinal/swift-framework/layout/search.php:37
+#: cardinal/swift-framework/layout/campaigns.php:26
+#: cardinal/swift-framework/layout/archive.php:47
+#: cardinal/swift-framework/layout/portfolio-category.php:19
+#: cardinal/swift-framework/layout/author.php:43
+msgid "Sorry, there are no posts to display."
+msgstr "К сожалению, по вашему запросу ничего не найдено."
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-footer.php:385
+msgid "Sorry, there was a problem processing your request."
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/cart/shipping-calculator.php:45
+#: cardinal/woocommerce/cart/shipping-calculator.php:51
+#: cardinal/woocommerce/cart/shipping-calculator.php:63
+#, fuzzy
+msgid "State / county"
+msgstr "Создать учетную запись"
+
+#. Text in echo
+#: cardinal/woocommerce/wishlist.php:120
+#, fuzzy
+msgid "Stock Status"
+msgstr "В наличии"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#. Text in echo
+#: cardinal/woocommerce/cart/cart.php:38
+msgid "Subtotal"
+msgstr "Общая цена"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-blog.php:1
+msgid "Tags"
+msgstr "Метки"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-post-detail.php:309
+#: cardinal/swift-framework/content/sf-campaign-detail.php:195
+msgid "Tags:"
+msgstr "Метки:"
+
+#. Text in function
+#: cardinal/woocommerce/order/order-details.php:144
+msgid "Telephone:"
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+msgid "Thank you for your submission, your entry is pending review."
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/checkout/thankyou.php:45
+#: cardinal/woocommerce/checkout/thankyou.php:84
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#. Text in function
+#: cardinal/woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+msgid "There is a new directory entry pending review, you can view it here:"
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-campaign-detail.php:60
+msgid "This %3$s will only be funded if at least %1$s is pledged by %2$s."
+msgstr ""
+
+#. Text in echo
+#: cardinal/comments.php:14
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Эта запись защищена паролем. Введите пароль для просмотра комментариев."
+
+#. Text in echo
+#: cardinal/woocommerce/single-product/add-to-cart/variable.php:104
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-campaign-detail.php:100
+#, fuzzy
+msgid "This project has ended."
+msgstr "Просмотреть проект"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-campaign-detail.php:100
+msgid ""
+"This project is donation only, and you can donate using the button below."
+msgstr ""
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-functions.php:1595
+#, fuzzy
+msgid "Title"
+msgstr "custom_ios_title"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-menus.php:1
+msgid "Top Bar Menu"
+msgstr "Верхнее меню"
+
+#. Text in echo
+#: cardinal/woocommerce/order/order-details.php:48
+msgid "Total"
+msgstr "В общем"
+
+#. Text in echo
+#: cardinal/woocommerce/checkout/thankyou.php:57
+#, fuzzy
+msgid "Total:"
+msgstr "В общем"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+#, fuzzy
+msgid "Twitter"
+msgstr "Пожалуйста, укажите Ваше имя пользователя в Twitter"
+
+#. Text in echo
+#: cardinal/woocommerce/checkout/thankyou.php:27
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/swift-framework/core/sf-woocommerce.php:228
+#, fuzzy
+msgid "Unfortunately, your cart is empty."
+msgstr "К сожалению, ваша корзина - пустая."
+
+#. Text in echo
+#: cardinal/woocommerce/cart/cart.php:36 cardinal/woocommerce/wishlist.php:119
+msgid "Unit Price"
+msgstr "Стоимость 1шт."
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/swift-framework/core/sf-woocommerce.php:202
+msgid "Unit Price:"
+msgstr "Стоимость 1 шт.:"
+
+#. Text in echo
+#: cardinal/woocommerce/cart/cart.php:145
+#, fuzzy
+msgid "Update Cart"
+msgstr "Обновить корзину"
+
+#. Text in echo
+#: cardinal/woocommerce/cart/shipping-calculator.php:85
+#, fuzzy
+msgid "Update Totals"
+msgstr "Обновить корзину"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-campaign-detail.php:141
+msgid "Updates"
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-login.php:83
+#, fuzzy
+msgid "Username"
+msgstr "Пожалуйста, укажите Ваше имя пользователя в Twitter"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-login.php:41
+#, fuzzy
+msgid "Username or email address"
+msgstr "Email"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/recent-posts.php:1
+#, fuzzy
+msgid "VIEW ALL ARTICLES"
+msgstr "Просмотреть все вакансии"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/products.php:1
+#, fuzzy
+msgid "VIEW ALL PRODUCTS"
+msgstr "Показаны все продукты (%d)"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/portfolio.php:1
+#, fuzzy
+msgid "VIEW ALL PROJECTS"
+msgstr "Просмотреть все вакансии"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-media.php:1
+msgid "Video not found"
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/loop/result-count.php:54
+msgid "View"
+msgstr "Посмотреть"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/team.php:1
+#, fuzzy
+msgid "View Profile"
+msgstr "Просмотреть профиль"
+
+#. Text in echo
+#: cardinal/swift-framework/content/sf-portfolio-detail.php:209
+msgid "View Project"
+msgstr "Просмотреть проект"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "View all %d results"
+msgstr "Просмотреть все %d результатов"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/swift-framework/core/sf-woocommerce.php:218
+#, fuzzy
+msgid "View cart"
+msgstr "Просмотреть корзину"
+
+#. Text in function
+#: cardinal/woocommerce/loop/add-to-cart.php:22
+#, fuzzy
+msgid "View options"
+msgstr "Посмотреть"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/team.php:1
+msgid "View profile"
+msgstr "Просмотреть профиль"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/swift-framework/core/sf-woocommerce.php:166
+#: cardinal/swift-framework/core/sf-woocommerce.php:170
+msgid "View your shopping cart"
+msgstr "Просмотреть корзину"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "View your wishlist"
+msgstr "Просмотреть свой список желаний"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+msgid "We are currently in maintenance mode, please check back shortly."
+msgstr ""
+"Сейчас мы находимся в режиме обслуживания, пожалуйста, зайдите в ближайшее "
+"время."
+
+#. Text in function
+#: cardinal/comments.php:65
+msgid "Website"
+msgstr "Веб-сайт"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Week"
+msgstr "Неделя"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Weeks"
+msgstr "Недель"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-directory.php:1
+#, fuzzy
+msgid "What are you looking for?"
+msgstr ""
+"Извините, но искомая страница не найдена. Пожалуйста, убедитесь, что вы "
+"ввели правильный URL. Вы также можете воспользоваться формой поиска."
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Year"
+msgstr "Год"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-footer.php:384
+msgid "Years"
+msgstr "Лет"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-footer.php:385
+msgid "You have already loved this item."
+msgstr ""
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/my-address.php:47
+#, fuzzy
+msgid "You have not set up this type of address yet."
+msgstr "Вы ничего не заказали."
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-products.php:1
+msgid "You haven't viewed any products yet."
+msgstr "Вы не посмотрели ни один товар."
+
+#. Text in echo
+#: cardinal/woocommerce/single-product/up-sells.php:40
+msgid "You may also like&hellip;"
+msgstr ""
+
+#. Text in function
+#: cardinal/comments.php:65
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Чтобы оставить комментарий, вы должны <a href=\"%s\">зарегистрироваться</a>."
+
+#. Text in function
+#: cardinal/woocommerce/checkout/form-checkout.php:22
+#, fuzzy
+msgid "You must be logged in to checkout."
+msgstr ""
+"Чтобы оставить комментарий, вы должны <a href=\"%s\">зарегистрироваться</a>."
+
+#. Text in echo
+#: cardinal/woocommerce/checkout/form-checkout.php:63
+msgid "Your Order"
+msgstr "Ваш заказ"
+
+#. Text in echo
+#: cardinal/woocommerce/cart/cart.php:27
+msgid "Your selection"
+msgstr "Вы выбрали"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/woocommerce/wishlist.php:197
+msgid "Your wishlist is currently empty."
+msgstr "Ваш список желаний - пустой."
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+msgid "[%s] New directory entry pending review."
+msgstr ""
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-comments.php:72
+msgid ""
+"\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting "
+"moderation.</span>\\n"
+msgstr ""
+"\\t\\t\\t\\t\\t<span class=\"unapproved\">Ваша обратная ссылка ожидает "
+"модерации.</span>\\n"
+
+#. Text in echo
+#: cardinal/swift-framework/core/sf-comments.php:53
+msgid ""
+"\\t\\t\\t\\t\\t<span class='unapproved'>Your comment is awaiting moderation."
+"</span>\\n"
+msgstr ""
+"\\t\\t\\t\\t\\t<span class='unapproved'>Ваш комментарий ожидает модерации.</"
+"span>\\n"
+
+#. Text in function
+#: cardinal/swift-framework/widgets/widget-comments.php:66
+#: cardinal/swift-framework/core/sf-functions.php:1
+#: cardinal/swift-framework/core/sf-comments.php:32
+msgid "ago"
+msgstr "назад"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/recent-posts.php:1
+msgid "blog_page"
+msgstr "blog_page"
+
+#. Text in echo
+#: cardinal/woocommerce/myaccount/form-login.php:74
+msgid "checkout_new_account_text"
+msgstr "checkout_new_account_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "contact_slideout_page"
+msgstr "contact_slideout_page"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-head.php:37
+msgid "custom_ios_title"
+msgstr "custom_ios_title"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-woocommerce.php:396
+msgid "email_modal"
+msgstr "email_modal"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-woocommerce.php:396
+msgid "faqs_modal"
+msgstr "faqs_modal"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field1_default_text"
+msgstr "field1_default_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field1_filter"
+msgstr "field1_filter"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field1_text"
+msgstr "field1_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field2_default_text"
+msgstr "field2_default_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field2_filter"
+msgstr "field2_filter"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field2_text"
+msgstr "field2_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field3_default_text"
+msgstr "field3_default_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field3_filter"
+msgstr "field3_filter"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field3_text"
+msgstr "field3_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field4_default_text"
+msgstr "field4_default_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field4_filter"
+msgstr "field4_filter"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field4_text"
+msgstr "field4_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field5_default_text"
+msgstr "field5_default_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field5_filter"
+msgstr "field5_filter"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field5_text"
+msgstr "field5_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field6_default_text"
+msgstr "field6_default_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field6_filter"
+msgstr "field6_filter"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "field6_text"
+msgstr "field6_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-footer.php:385
+msgid "footer_copyright_text"
+msgstr "footer_copyright_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-footer.php:385
+msgid "footer_copyright_text_right"
+msgstr "footer_copyright_text_right"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-footer.php:1
+msgid "footer_promo_bar_button_link"
+msgstr "footer_promo_bar_button_link"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-footer.php:1
+msgid "footer_promo_bar_button_text"
+msgstr "footer_promo_bar_button_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-footer.php:1
+msgid "footer_promo_bar_text"
+msgstr "footer_promo_bar_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "header_left_text"
+msgstr "header_left_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "header_right_text"
+msgstr "header_right_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-woocommerce.php:396
+msgid "help_bar_text"
+msgstr "help_bar_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+#: cardinal/swift-framework/core/sf-woocommerce.php:180
+#, fuzzy
+msgid "in the cart"
+msgstr "Просмотреть корзину"
+
+#. Text in function
+#: cardinal/woocommerce/content-product_cat.php:51
+#, fuzzy
+msgid "items"
+msgstr "% товара"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-functions.php:1
+msgid "maintenance_mode_page"
+msgstr "maintenance_mode_page"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "mobile_top_text"
+msgstr "mobile_top_text"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-products.php:1
+#: cardinal/woocommerce/content-single-product.php:111
+#, fuzzy
+msgid "out of 5"
+msgstr "Распродано"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/portfolio.php:1
+#: cardinal/swift-framework/custom-post-types/sf-post-type-permalinks.php:223
+msgid "portfolio_page"
+msgstr "portfolio_page"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-directory.php:1
+#, fuzzy
+msgid "results"
+msgstr "Ничего не найдено"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-woocommerce.php:396
+msgid "returns_modal"
+msgstr "returns_modal"
+
+#. Text in function
+#: cardinal/includes/meta-boxes.php:1
+msgid "review_cat_1"
+msgstr "review_cat_1"
+
+#. Text in function
+#: cardinal/includes/meta-boxes.php:1
+msgid "review_cat_2"
+msgstr "review_cat_2"
+
+#. Text in function
+#: cardinal/includes/meta-boxes.php:1
+msgid "review_cat_3"
+msgstr "review_cat_3"
+
+#. Text in function
+#: cardinal/includes/meta-boxes.php:1
+msgid "review_cat_4"
+msgstr "review_cat_4"
+
+#. Text in function
+#: cardinal/swift-framework/content/sf-blog.php:1
+msgid "rss_feed_url"
+msgstr "rss_feed_url"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-woocommerce.php:396
+msgid "shipping_modal"
+msgstr "shipping_modal"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "ss_button_text"
+msgstr "ss_button_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-supersearch.php:1
+msgid "ss_final_text"
+msgstr "ss_final_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "sub_code"
+msgstr "sub_code"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:1
+msgid "tb_left_text"
+msgstr "tb_left_text"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:1
+msgid "tb_right_text"
+msgstr "tb_right_text"
+
+#. Text in function
+#: cardinal/swift-framework/page-builder/shortcodes/testimonial.php:1
+#: cardinal/swift-framework/page-builder/shortcodes/testimonial-carousel.php:1
+msgid "testimonial_page"
+msgstr "testimonial_page"
+
+#. Text in function
+#: cardinal/swift-framework/core/sf-header.php:129
+msgid "vertical_header_text"
+msgstr "vertical_header_text"
+
+#~ msgid "Change Password"
+#~ msgstr "Изменить Пароль"
+
+#~ msgid "It is not possible to change the password for the demo account."
+#~ msgstr "Нельзя изменять пароль для демо-счета."
+
+#, fuzzy
+#~ msgid "New password"
+#~ msgstr "Новое"
+
+#, fuzzy
+#~ msgid "Re-enter new password"
+#~ msgstr "Изменить пароль"
+
+#, fuzzy
+#~ msgid "Save"
+#~ msgstr "Поделиться"
+
+#~ msgid "%1$s - %2$s"
+#~ msgstr "%1$s - %2$s"
+
+#~ msgid "1. Sign In"
+#~ msgstr "1. Вход"
+
+#~ msgid "2. Billing & Shipping"
+#~ msgstr "2. Оформление и Доставка"
+
+#~ msgid "3. Review & Payment"
+#~ msgstr "3. Просмотр и Оплата"
+
+#~ msgid "4. Confirmation"
+#~ msgstr "4. Подтверждение"
+
+#~ msgid ""
+#~ "<i class=\"ss-navigateleft\"></i> <span class=\"nav-text\">%title</span>"
+#~ msgstr ""
+#~ "<i class=\"ss-navigateleft\"></i> <span class=\"nav-text\">%title</span>"
+
+#~ msgid ""
+#~ "<span class=\"nav-text\">%title</span><i class=\"ss-navigateright\"></i>"
+#~ msgstr ""
+#~ "<span class=\"nav-text\">%title</span><i class=\"ss-navigateright\"></i>"
+
+#~ msgid "About"
+#~ msgstr "Об авторе -"
+
+#~ msgid "Add to shopping bag"
+#~ msgstr "Добавить в корзину"
+
+#~ msgid "Amount"
+#~ msgstr "Количество"
+
+#~ msgid "Browse F.A.Q. Topics"
+#~ msgstr "Часто задаваемые вопросы"
+
+#~ msgid "By <a href=\"%2$s\">%1$s</a> on %3$s"
+#~ msgstr "Автор: <a href=\"%2$s\">%1$s</a> / Дата: %3$s"
+
+#~ msgid "Discount:"
+#~ msgstr "Скидка:"
+
+#~ msgid "Enter promotion code"
+#~ msgstr "Введите промо-код"
+
+#~ msgid "Filter our work"
+#~ msgstr "Фильтр по вашим работам"
+
+#~ msgid "Follow:"
+#~ msgstr "Следуйте:"
+
+#~ msgid "Learn more"
+#~ msgstr "Узнать больше"
+
+#~ msgid "Login here"
+#~ msgstr "Вход в систему здесь"
+
+#~ msgid "Please enable JavaScript to view this website."
+#~ msgstr "Пожалуйста, включите JavaScript для просмотра этого сайта."
+
+#~ msgid "Posted by <a href=\"%2$s\">%1$s</a> on %3$s in %4$s"
+#~ msgstr ""
+#~ "Опубликовано: <a href=\"%2$s\">%1$s</a>  / Дата: %3$s  в категориях: %4$s"
+
+#~ msgid "Prev"
+#~ msgstr "Предыдущая"
+
+#~ msgid "Product code:"
+#~ msgstr "Код продукта:"
+
+#~ msgid "Promo Codes:"
+#~ msgstr "Промо-коды:"
+
+#~ msgid "Return to the previous page"
+#~ msgstr "Вернуться на предыдущую страницу"
+
+#, fuzzy
+#~ msgid "Returning customer?"
+#~ msgstr "Вернулся заказчик?"
+
+#~ msgid "Search for something..."
+#~ msgstr "Искать что-то..."
+
+#~ msgid "Share this article:"
+#~ msgstr "Поделиться этой страницей:"
+
+#~ msgid "Share this gallery:"
+#~ msgstr "Поделиться этой галереей:"
+
+#~ msgid "Shopping bag summary"
+#~ msgstr "Суммарная сводка покупаемых товаров"
+
+#~ msgid ""
+#~ "Sorry but we couldn't find the page you are looking for. Please check to "
+#~ "make sure you've typed the URL correctly. You may also want to search for "
+#~ "what you are looking for."
+#~ msgstr ""
+#~ "Извините, но искомая страница не найдена. Пожалуйста, убедитесь, что вы "
+#~ "ввели правильный URL. Вы также можете воспользоваться формой поиска."
+
+#~ msgid "Subtotal:"
+#~ msgstr "Общая цена:"
+
+#~ msgid "Update Shopping Bag"
+#~ msgstr "Обновить корзину"
+
+#~ msgid "View all vacancies"
+#~ msgstr "Просмотреть все вакансии"
+
+#~ msgid "View shopping bag"
+#~ msgstr "Просмотреть корзину"
+
+#~ msgid "Write a review"
+#~ msgstr "Написать отзыв"
+
+#~ msgid "You currently have no items in your Shopping Bag."
+#~ msgstr "В настоящее время в вашей корзине нет товаров."
+
+#~ msgid "Your Shopping Bag is empty"
+#~ msgstr "Ваша корзина - пустая"
+
+#, fuzzy
+#~ msgid "in the shopping bag"
+#~ msgstr "в корзине"
