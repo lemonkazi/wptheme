@@ -1,0 +1,64 @@
+/*
+* Theme Name: Time Travel - Timeline WordPress Theme
+* Theme Author: Andrey Boyadzhiev / flasherland.com
+*
+* Description: Time Travel Wordpress Theme is a next generation 
+* website, developed both on the edge of technology and design. 
+* The built-in voice control makes it both revolutionary and at the same time super intuitive to use. 
+*
+* Version: 1.0 
+*/
+.button {  
+	border-radius: 0px;  
+}
+.b-circle{
+	border-radius: 50%;
+}
+.button.b-circle, .button.b-circle:hover {
+	filter: none;
+}
+.accordion .b-circle{
+	 margin-top:8px;
+	 padding-top:4px;
+}
+.nav li {
+	padding: 10px 10px 21px 10px;
+}
+.classictilt section.bespoke-before, .classictilt section.bespoke-before-2, .classictilt section.bespoke-before-1, .classictilt #firsts.bespoke-before-1, .classictilt section.bespoke-active, .classictilt section.bespoke-after, .classictilt section.bespoke-after-2, .classictilt section.bespoke-after-1{
+	-ms-transform: none;
+}
+.classictilt section.bespoke-before-2, .classictilt section.bespoke-before-1, .classictilt section.bespoke-after-2, .classictilt section.bespoke-after-1{
+	opacity:1;
+}
+.timelinepath:before{
+	width:80%;
+	height:100%;
+	background:#000;
+	opacity:0.3;
+	margin-left:10%;
+	bottom:0%;
+}
+section .ss-full{
+	height:100%;
+}
+.classictilt section.bespoke-after-1 {
+	visibility:visible;
+}
+.single-post  section {
+	top:auto;
+}
+.classictilt #firsts.bespoke-before-1{
+	min-height:500px;
+}
+.timedate:before{
+	display:none;
+ 	height:480px;
+	bottom:-505px;
+}
+.animated{
+	opacity:1;
+	visibility:visible;
+}
+.loading:after{
+	display:none;
+}
