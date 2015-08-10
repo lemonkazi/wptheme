@@ -41,6 +41,13 @@
 // 	require get_template_directory() . '/inc/back-compat.php';
 // }
 
+if (!class_exists('ReduxFramework') && file_exists(dirname(__FILE__) . '/ReduxFramework/ReduxCore/framework.php')) {
+    require_once(dirname(__FILE__) . '/ReduxFramework/ReduxCore/framework.php');
+}
+if (!isset($sopernal_settings) && file_exists(dirname(__FILE__) . '/ReduxFramework/admin.php')) {
+    require_once(dirname(__FILE__) . '/ReduxFramework/admin.php');
+}
+
     /* VARIABLE DEFINITIONS
     ================================================== */
     define( 'SOPERNAL_TEMPLATE_PATH', get_template_directory() );
@@ -49,7 +56,7 @@
   //  define( 'SOPRNAL_WIDGETS_PATH', SOPERNAL_INCLUDES_PATH . '/widgets' );
     define( 'SOPERNAL_LOCAL_PATH', get_template_directory_uri() );
 
-if ( ! function_exists( 'twentyfifteen_setup' ) ) :
+if ( ! function_exists( 'sopernal_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -59,15 +66,15 @@ if ( ! function_exists( 'twentyfifteen_setup' ) ) :
  *
  * @since Twenty Fifteen 1.0
  */
-function twentyfifteen_setup() {
+function sopernal_setup() {
 
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on twentyfifteen, use a find and replace
-	 * to change 'twentyfifteen' to the name of your theme in all the template files
+	 * If you're building a theme based on sopernal, use a find and replace
+	 * to change 'sopernal' to the name of your theme in all the template files
 	 */
-	load_theme_textdomain( 'twentyfifteen', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'sopernal', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -90,8 +97,8 @@ function twentyfifteen_setup() {
 
 	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus( array(
-		'primary' => __( 'Primary Menu',      'twentyfifteen' ),
-		'social'  => __( 'Social Links Menu', 'twentyfifteen' ),
+		'primary' => __( 'Primary Menu',      'sopernal' ),
+		'social'  => __( 'Social Links Menu', 'sopernal' ),
 	) );
 
 	/*
@@ -111,11 +118,11 @@ function twentyfifteen_setup() {
 		'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
 	) );
 
-	$color_scheme  = twentyfifteen_get_color_scheme();
+	$color_scheme  = sopernal_get_color_scheme();
 	$default_color = trim( $color_scheme[0], '#' );
 
 	// Setup the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( 'twentyfifteen_custom_background_args', array(
+	add_theme_support( 'custom-background', apply_filters( 'sopernal_custom_background_args', array(
 		'default-color'      => $default_color,
 		'default-attachment' => 'fixed',
 	) ) );
@@ -124,10 +131,10 @@ function twentyfifteen_setup() {
 	 * This theme styles the visual editor to resemble the theme style,
 	 * specifically font, colors, icons, and column width.
 	 */
-	add_editor_style( array( 'css/editor-style.css', 'genericons/genericons.css', twentyfifteen_fonts_url() ) );
+	add_editor_style( array( 'css/editor-style.css', 'genericons/genericons.css', sopernal_fonts_url() ) );
 }
-endif; // twentyfifteen_setup
-add_action( 'after_setup_theme', 'twentyfifteen_setup' );
+endif; // sopernal_setup
+add_action( 'after_setup_theme', 'sopernal_setup' );
 
 /**
  * Register widget area.
@@ -136,20 +143,20 @@ add_action( 'after_setup_theme', 'twentyfifteen_setup' );
  *
  * @link https://codex.wordpress.org/Function_Reference/register_sidebar
  */
-function twentyfifteen_widgets_init() {
+function sopernal_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Widget Area', 'twentyfifteen' ),
+		'name'          => __( 'Widget Area', 'sopernal' ),
 		'id'            => 'sidebar-1',
-		'description'   => __( 'Add widgets here to appear in your sidebar.', 'twentyfifteen' ),
+		'description'   => __( 'Add widgets here to appear in your sidebar.', 'sopernal' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
 }
-add_action( 'widgets_init', 'twentyfifteen_widgets_init' );
+add_action( 'widgets_init', 'sopernal_widgets_init' );
 
-if ( ! function_exists( 'twentyfifteen_fonts_url' ) ) :
+if ( ! function_exists( 'sopernal_fonts_url' ) ) :
 /**
  * Register Google fonts for Twenty Fifteen.
  *
@@ -157,7 +164,7 @@ if ( ! function_exists( 'twentyfifteen_fonts_url' ) ) :
  *
  * @return string Google fonts URL for the theme.
  */
-function twentyfifteen_fonts_url() {
+function sopernal_fonts_url() {
 	$fonts_url = '';
 	$fonts     = array();
 	$subsets   = 'latin,latin-ext';
@@ -166,7 +173,7 @@ function twentyfifteen_fonts_url() {
 	 * Translators: If there are characters in your language that are not supported
 	 * by Noto Sans, translate this to 'off'. Do not translate into your own language.
 	 */
-	if ( 'off' !== _x( 'on', 'Noto Sans font: on or off', 'twentyfifteen' ) ) {
+	if ( 'off' !== _x( 'on', 'Noto Sans font: on or off', 'sopernal' ) ) {
 		$fonts[] = 'Noto Sans:400italic,700italic,400,700';
 	}
 
@@ -174,7 +181,7 @@ function twentyfifteen_fonts_url() {
 	 * Translators: If there are characters in your language that are not supported
 	 * by Noto Serif, translate this to 'off'. Do not translate into your own language.
 	 */
-	if ( 'off' !== _x( 'on', 'Noto Serif font: on or off', 'twentyfifteen' ) ) {
+	if ( 'off' !== _x( 'on', 'Noto Serif font: on or off', 'sopernal' ) ) {
 		$fonts[] = 'Noto Serif:400italic,700italic,400,700';
 	}
 
@@ -182,7 +189,7 @@ function twentyfifteen_fonts_url() {
 	 * Translators: If there are characters in your language that are not supported
 	 * by Inconsolata, translate this to 'off'. Do not translate into your own language.
 	 */
-	if ( 'off' !== _x( 'on', 'Inconsolata font: on or off', 'twentyfifteen' ) ) {
+	if ( 'off' !== _x( 'on', 'Inconsolata font: on or off', 'sopernal' ) ) {
 		$fonts[] = 'Inconsolata:400,700';
 	}
 
@@ -190,7 +197,7 @@ function twentyfifteen_fonts_url() {
 	 * Translators: To add an additional character subset specific to your language,
 	 * translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
 	 */
-	$subset = _x( 'no-subset', 'Add new subset (greek, cyrillic, devanagari, vietnamese)', 'twentyfifteen' );
+	$subset = _x( 'no-subset', 'Add new subset (greek, cyrillic, devanagari, vietnamese)', 'sopernal' );
 
 	if ( 'cyrillic' == $subset ) {
 		$subsets .= ',cyrillic,cyrillic-ext';
@@ -220,10 +227,10 @@ endif;
  *
  * @since Twenty Fifteen 1.1
  */
-function twentyfifteen_javascript_detection() {
+function sopernal_javascript_detection() {
 	echo "<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>\n";
 }
-add_action( 'wp_head', 'twentyfifteen_javascript_detection', 0 );
+add_action( 'wp_head', 'sopernal_javascript_detection', 0 );
 
 
 
@@ -277,12 +284,13 @@ add_action( 'wp_head', 'twentyfifteen_javascript_detection', 0 );
            // global $sf_options;
          //   $enable_responsive = $sf_options['enable_responsive'];
           //  $enable_rtl        = $sf_options['enable_rtl'];
+            wp_register_style( 'sopernal-main', get_stylesheet_directory_uri() . '/style.css', array(), null, 'all' );
+         
 
             wp_register_style( 'bootstrap', SOPERNAL_LOCAL_PATH . '/css/bootstrap.min.css', array(), null, 'all' );
             wp_register_style( 'fontawesome', SOPERNAL_LOCAL_PATH . '/css/font-awesome.min.css', array(), null, 'all' );
           //  wp_register_style( 'ssgizmo', SOPERNAL_LOCAL_PATH . '/css/ss-gizmo.css', array(), null, 'all' );
-            wp_register_style( 'sopernal-main', get_stylesheet_directory_uri() . '/style.css', array(), null, 'all' );
-            wp_register_style( 'sopernal-rtl', SOPERNAL_LOCAL_PATH . '/rtl.css', array(), null, 'all' );
+             wp_register_style( 'sopernal-rtl', SOPERNAL_LOCAL_PATH . '/rtl.css', array(), null, 'all' );
            // wp_register_style( 'sopernal-woocommerce', SOPERNAL_LOCAL_PATH . '/css/sf-woocommerce.css', array(), null, 'screen' );
             wp_register_style( 'sopernal-responsive', SOPERNAL_LOCAL_PATH . '/css/responsive.css', array(), null, 'screen' );
 
@@ -428,7 +436,7 @@ add_action( 'wp_head', 'twentyfifteen_javascript_detection', 0 );
  *
  * @see wp_add_inline_style()
  */
-function twentyfifteen_post_nav_background() {
+function sopernal_post_nav_background() {
 	if ( ! is_single() ) {
 		return;
 	}
@@ -459,9 +467,9 @@ function twentyfifteen_post_nav_background() {
 		';
 	}
 
-	wp_add_inline_style( 'twentyfifteen-style', $css );
+	wp_add_inline_style( 'sopernal-style', $css );
 }
-add_action( 'wp_enqueue_scripts', 'twentyfifteen_post_nav_background' );
+add_action( 'wp_enqueue_scripts', 'sopernal_post_nav_background' );
 
 /**
  * Display descriptions in main navigation.
@@ -474,14 +482,14 @@ add_action( 'wp_enqueue_scripts', 'twentyfifteen_post_nav_background' );
  * @param array   $args        wp_nav_menu() arguments.
  * @return string Menu item with possible description.
  */
-function twentyfifteen_nav_description( $item_output, $item, $depth, $args ) {
+function sopernal_nav_description( $item_output, $item, $depth, $args ) {
 	if ( 'primary' == $args->theme_location && $item->description ) {
 		$item_output = str_replace( $args->link_after . '</a>', '<div class="menu-item-description">' . $item->description . '</div>' . $args->link_after . '</a>', $item_output );
 	}
 
 	return $item_output;
 }
-add_filter( 'walker_nav_menu_start_el', 'twentyfifteen_nav_description', 10, 4 );
+add_filter( 'walker_nav_menu_start_el', 'sopernal_nav_description', 10, 4 );
 
 /**
  * Add a `screen-reader-text` class to the search form's submit button.
@@ -491,10 +499,10 @@ add_filter( 'walker_nav_menu_start_el', 'twentyfifteen_nav_description', 10, 4 )
  * @param string $html Search form HTML.
  * @return string Modified search form HTML.
  */
-function twentyfifteen_search_form_modify( $html ) {
+function sopernal_search_form_modify( $html ) {
 	return str_replace( 'class="search-submit"', 'class="search-submit screen-reader-text"', $html );
 }
-add_filter( 'get_search_form', 'twentyfifteen_search_form_modify' );
+add_filter( 'get_search_form', 'sopernal_search_form_modify' );
 
 /**
  * Implement the Custom Header feature.

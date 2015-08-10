@@ -3,7 +3,7 @@
  */
 
 ( function( $ ) {
-	$( document ).on( 'keydown.twentyfifteen', function( e ) {
+	$( document ).on( 'keydown.sopernal', function( e ) {
 		var url = false;
 
 		// Left arrow key code.
