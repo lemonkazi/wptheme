@@ -10,7 +10,8 @@
  */
 ?>
 		</div>
-	</div><!-- .site-content -->
+	</div>
+  <!-- .site-content -->
 	<div class="pre-footer">
       <div class="container">
         <div class="row">
@@ -107,7 +108,7 @@
     </div>
 	<!-- .site-footer -->
 
-</div><!-- .site -->
+<!-- </div> --><!-- .site -->
 
 <?php wp_footer(); ?>
 

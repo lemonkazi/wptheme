@@ -17,9 +17,7 @@ if ( !is_front_page() ) { echo wp_title( ' ', true, 'left' ); echo ' | '; }
 </title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-
 <link rel="shortcut icon" href="<?php echo $ab_amy_settings['fav-ico']['url']; ?>" />
-
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
  <meta name="twitter:card" content="summary_large_image">

@@ -55,8 +55,17 @@ if(is_single() && has_post_thumbnail() || is_page() && has_post_thumbnail() ) {
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'sopernal' ); ?></a>
+<!-- <div id="page" class="hfeed site"> -->
+<!-- <a class="skip-link screen-reader-text" href="#content">
+	<?php _e( 'Skip to content', 'sopernal' ); ?>
+</a> -->
+<?php 
+if (isset($sopernal_settings['layerslider-bg'])){?>
+		<div class="layersliderbg">
+		  <?php  echo  do_shortcode($sopernal_settings['layerslider-bg']); ?>
+		</div><?php 
+	};
+	?>
 
 
 	<!-- .sidebar -->
