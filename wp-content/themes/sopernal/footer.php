@@ -9,6 +9,9 @@
  * @since Twenty Fifteen 1.0
  */
 ?>
+<?php global $sopernal_settings; 
+
+?>
 		</div>
 	</div>
   <!-- .site-content -->
@@ -89,17 +92,20 @@
           </div>
           <!-- END COPYRIGHT -->
           <!-- BEGIN PAYMENTS -->
+  
+		  
           <div class="col-md-6 col-sm-6">
             <ul class="social-footer list-unstyled list-inline pull-right">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-skype"></i></a></li>
-              <li><a href="#"><i class="fa fa-github"></i></a></li>
-              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-              <li><a href="#"><i class="fa fa-dropbox"></i></a></li>
+              <?php  if($sopernal_settings['fb-link-url'] !=''){ ?><li><a href="<?php echo $sopernal_settings['fb-link-url']; ?>" target="_blank"><i class="fa fa-facebook"></i></a></li><?php }?>
+              <?php  if($sopernal_settings['gp-link-url'] !=''){ ?><li><a href="<?php echo $sopernal_settings['gp-link-url']; ?>" target="_blank"><i class="fa fa-google-plus"></i></a></li><?php }?>
+              <?php  if($sopernal_settings['pi-link-url'] !=''){ ?><li><a href="<?php echo $sopernal_settings['pi-link-url']; ?>" target="_blank"><i class="fa fa-pinterest"></i></a></li><?php }?>
+			  <li><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <?php  if($sopernal_settings['tw-link-url'] !=''){ ?><li><a href="<?php echo $sopernal_settings['tw-link-url']; ?>" target="_blank"><i class="fa fa-twitter"></i></a></li><?php }?>
+              <li><a href="#" target="_blank"><i class="fa fa-skype"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+              <?php  if($sopernal_settings['yt-link-url'] !=''){ ?><li><a href="<?php echo $sopernal_settings['yt-link-url']; ?>" target="_blank"><i class="fa fa-youtube"></i></a></li><?php }?>
+              <li><a href="#" target="_blank"><i class="fa fa-dropbox"></i></a></li>
             </ul>  
           </div>
           <!-- END PAYMENTS -->
