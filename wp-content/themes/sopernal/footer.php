@@ -159,7 +159,7 @@
 	<!-- .site-footer -->
 
 <!-- </div> --><!-- .site -->
-
+<?php include('inc/java-fun.php');?>   
 <?php wp_footer(); ?>
 
 </body>
