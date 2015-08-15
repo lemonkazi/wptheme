@@ -524,3 +524,29 @@ require get_template_directory() . '/inc/template-tags.php';
  * @since Twenty Fifteen 1.0
  */
 require get_template_directory() . '/inc/customizer.php';
+
+// Footer widget 1/3
+if (function_exists('register_sidebar')) {
+	register_sidebar(array(
+		'name' => 'Footer 1/3',
+		'id' => 'footer-1',
+		'description' => ' footer area',
+		
+	));
+}
+// Footer widget 2/3
+if (function_exists('register_sidebar')) {
+	register_sidebar(array(
+		'name' => 'Footer 2/3',
+		'id' => 'footer-2',
+		'description' => '2/3 footer area'
+	));
+}
+// Footer widget 3/3
+if (function_exists('register_sidebar')) {
+	register_sidebar(array(
+		'name' => 'Footer 3/3',
+		'id' => 'footer-3',
+		'description' => '3/3 footer area'
+	));
+}

@@ -17,6 +17,50 @@
   <!-- .site-content -->
 	<div class="pre-footer">
       <div class="container">
+		<div class="row">
+			<!--FOOTER WIDGETS
+			//===================================================== -->
+			
+				<div class="wpb_row vc_row-fluid ss-stand-alone"><?php 
+					if($sopernal_settings['footer-layout'] == 5){?>
+						<div class="col-md-4 col-sm-6 pre-footer-col wpb_column column_container ccscroll">
+							<?php dynamic_sidebar('footer-1'); ?>
+						</div>
+						<div class="col-md-4 col-sm-6 pre-footer-col wpb_column column_container ccscroll">
+							<?php dynamic_sidebar('footer-2'); ?>
+						</div>
+						<div class="col-md-4 col-sm-6 pre-footer-col wpb_column column_container ccscroll">
+							<?php dynamic_sidebar('footer-3'); ?>
+						</div><?php 
+					}else if($sopernal_settings['footer-layout'] == 4){?>
+						<div class="col-md-8 wpb_column column_container ccscroll">
+							<?php dynamic_sidebar('footer-1'); ?>
+						</div>
+						<div class="col-md-4 wpb_column column_container ccscroll">
+							<?php dynamic_sidebar('footer-2'); ?>
+						</div><?php 
+					}else if($sopernal_settings['footer-layout'] == 3){?>
+						<div class="col-md-6 wpb_column column_container ccscroll">
+							<?php dynamic_sidebar('footer-1'); ?>
+						</div>
+						<div class="col-md-6 wpb_column column_container ccscroll">
+							<?php dynamic_sidebar('footer-2'); ?>
+						</div><?php
+					}else if($sopernal_settings['footer-layout'] == 2){?>
+						<div class="col-md-4 wpb_column column_container ccscroll">
+							<?php dynamic_sidebar('footer-1'); ?>
+						</div>
+						<div class="col-md-8 wpb_column column_container ccscroll">
+							<?php dynamic_sidebar('footer-2'); ?>
+						</div><?php 
+					}else{?>
+						<div class="col-md-12 wpb_column column_container ccscroll">
+							<?php dynamic_sidebar('footer-1'); ?>
+						</div><?php 
+					}?>
+				</div> 
+			
+		</div>
         <div class="row">
           <!-- BEGIN BOTTOM ABOUT BLOCK -->
           <div class="col-md-4 col-sm-6 pre-footer-col">
@@ -88,7 +132,7 @@
         <div class="row">
           <!-- BEGIN COPYRIGHT -->
           <div class="col-md-6 col-sm-6 padding-top-10">
-            2014 © Metronic Shop UI. ALL Rights Reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+			<?php echo $sopernal_settings['footer-text']; ?> 
           </div>
           <!-- END COPYRIGHT -->
           <!-- BEGIN PAYMENTS -->
