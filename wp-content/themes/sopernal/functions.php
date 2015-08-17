@@ -100,6 +100,10 @@ function sopernal_setup() {
 		'primary' => __( 'Primary Menu',      'sopernal' ),
 		'social'  => __( 'Social Links Menu', 'sopernal' ),
 	) );
+  //Add support for WordPress 3.0's custom menus
+  add_action( 'init', 'ab_tf_register_my_menu' );
+  //Register area for custom menu
+
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments
@@ -135,6 +139,15 @@ function sopernal_setup() {
 }
 endif; // sopernal_setup
 add_action( 'after_setup_theme', 'sopernal_setup' );
+
+
+function ab_tf_register_my_menu() {
+  register_nav_menu( 'primary-menu', 'Primary Menu');
+}
+
+
+
+
 
 /**
  * Register widget area.
@@ -292,12 +305,13 @@ add_action( 'wp_head', 'sopernal_javascript_detection', 0 );
           //  wp_register_style( 'ssgizmo', SOPERNAL_LOCAL_PATH . '/css/ss-gizmo.css', array(), null, 'all' );
              wp_register_style( 'sopernal-rtl', SOPERNAL_LOCAL_PATH . '/rtl.css', array(), null, 'all' );
            // wp_register_style( 'sopernal-woocommerce', SOPERNAL_LOCAL_PATH . '/css/sf-woocommerce.css', array(), null, 'screen' );
-            wp_register_style( 'sopernal-responsive', SOPERNAL_LOCAL_PATH . '/css/responsive.css', array(), null, 'screen' );
-
+            wp_register_style( 'sopernal-responsive', SOPERNAL_LOCAL_PATH . '/layout/css/style-responsive.css', array(), null, 'screen' );
+            wp_register_style( 'sopernal-red', SOPERNAL_LOCAL_PATH . '/layout/themes/red.css', array(), null, 'all' );  
             wp_enqueue_style( 'bootstrap' );
            // wp_enqueue_style( 'ssgizmo' );
             wp_enqueue_style( 'fontawesome' );
             wp_enqueue_style( 'sopernal-main' );
+            wp_enqueue_style( 'sopernal-red' );
 
             // if ( sf_woocommerce_activated() ) {
             //     wp_enqueue_style( 'sf-woocommerce' );
@@ -307,9 +321,9 @@ add_action( 'wp_head', 'sopernal_javascript_detection', 0 );
                 wp_enqueue_style( 'sopernal-rtl' );
             }
 
-            if ( $enable_responsive ) {
+          //  if ( $enable_responsive ) {
                 wp_enqueue_style( 'sopernal-responsive' );
-            }
+          //  }
 
         }
 
@@ -329,6 +343,9 @@ add_action( 'wp_head', 'sopernal_javascript_detection', 0 );
             // $post_type          = get_query_var( 'post_type' );
 
             // Register Scripts
+          
+          wp_register_script( 'layout-js', SOPERNAL_LOCAL_PATH . '/js/layout.js', 'jquery', null, true );
+          
             wp_register_script( 'sopernal-bootstrap-js', SOPERNAL_LOCAL_PATH . '/js/bootstrap.min.js', 'jquery', null, true );
             wp_register_script( 'sopernal-flexslider', SOPERNAL_LOCAL_PATH . '/js/jquery.flexslider-min.js', 'jquery', null, true );
             wp_register_script( 'sopernal-flexslider-rtl', SOPERNAL_LOCAL_PATH . '/js/jquery.flexslider-rtl-min.js', 'jquery', null, true );
@@ -348,9 +365,12 @@ add_action( 'wp_head', 'sopernal_javascript_detection', 0 );
          //   wp_register_script( 'sopernal-functions-min', SOPERNAL_LOCAL_PATH . '/js/functions.min.js', 'jquery', null, true );
 
             // jQuery
+            
             wp_enqueue_script( 'jquery' );
 
+
             if ( ! is_admin() ) {
+
 
                 // Theme Scripts
                 if ( $enable_min_scripts ) {
@@ -362,10 +382,12 @@ add_action( 'wp_head', 'sopernal_javascript_detection', 0 );
                     if ( ! is_singular( 'tribe_events' ) && $post_type != 'tribe_events' && ! is_singular( 'tribe_venue' ) && $post_type != 'tribe_venue' ) {
                         wp_enqueue_script( 'sopernal-maps' );
                     }
-                    wp_enqueue_script( 'sopernal-functions' );
+                  //  wp_enqueue_script( 'sopernal-functions' );
+
                 } else {
                     wp_enqueue_script( 'sopernal-bootstrap-js' );
                    // wp_enqueue_script( 'sf-jquery-ui' );
+                    wp_enqueue_script('layout-js');
 
                     if ( is_rtl() || $enable_rtl || isset( $_GET['RTL'] ) ) {
                         wp_enqueue_script( 'sopernal-flexslider-rtl' );
@@ -389,7 +411,7 @@ add_action( 'wp_head', 'sopernal_javascript_detection', 0 );
                     //     wp_enqueue_script( 'sf-elevatezoom' );
                     // }
 
-                    wp_enqueue_script( 'sopernal-functions' );
+                   // wp_enqueue_script( 'sopernal-functions' );
                 }
 
                 // Comments reply
@@ -397,6 +419,7 @@ add_action( 'wp_head', 'sopernal_javascript_detection', 0 );
                     wp_enqueue_script( 'comment-reply' );
                 }
             }
+            
         }
 
         add_action( 'wp_enqueue_scripts', 'sopernal_enqueue_scripts' );
