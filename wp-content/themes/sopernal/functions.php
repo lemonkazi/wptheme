@@ -514,6 +514,121 @@ function sopernal_nav_description( $item_output, $item, $depth, $args ) {
 }
 add_filter( 'walker_nav_menu_start_el', 'sopernal_nav_description', 10, 4 );
 
+class My_Walker_Nav_Menu extends Walker_Nav_Menu {
+
+   function display_element( $element, &$children_elements, $max_depth, $depth=0, $args, &$output ){
+        $GLOBALS['dd_children'] = ( isset($children_elements[$element->ID]) )? 1:0;
+        $GLOBALS['dd_depth'] = (int) $depth;
+        parent::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
+    }
+  function start_lvl(&$output, $depth) {
+    $indent = str_repeat("\t", $depth);
+    $output .= "\n$indent<ul class=\"dropdown-menu\">\n";
+  }
+  function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) 
+  {
+    global $wp_query, $wpdb;
+    $indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
+    $li_attributes = '';
+    $class_names = $value = '';
+    $classes = empty( $item->classes ) ? array() : (array) $item->classes;
+    
+    //Add class and attribute to LI element that contains a submenu UL.
+    if ($args->has_children){
+      $classes[]    = 'dropdown';
+      $li_attributes .= 'data-dropdown="dropdown"';
+    }
+    $classes[] = 'menu-item-' . $item->ID;
+    //If we are on the current page, add the active class to that menu item.
+    $classes[] = ($item->current) ? 'active' : '';
+    //Make sure you still add all of the WordPress classes.
+    $class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) );
+    $class_names = ' class="' . esc_attr( $class_names ) . '"';
+    $id = apply_filters( 'nav_menu_item_id', 'menu-item-'. $item->ID, $item, $args );
+    $id = strlen( $id ) ? ' id="' . esc_attr( $id ) . '"' : '';
+    $has_children = $wpdb->get_var(
+      $wpdb->prepare("
+        SELECT COUNT(*) FROM $wpdb->postmeta
+        WHERE meta_key = %s
+        AND meta_value = %d
+      ", '_menu_item_menu_item_parent', $item->ID)
+    );
+
+
+
+    $output .= $indent . '<li' . $id . $value . $class_names .'>';
+    
+
+    $output .= $indent . '<li' . $id . $value . $class_names . $li_attributes . '>';
+    //Add attributes to link element.
+    $attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';
+    $attributes .= ! empty( $item->target ) ? ' target="' . esc_attr( $item->target     ) .'"' : '';
+    $attributes .= ! empty( $item->xfn ) ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
+    $attributes .= ! empty( $item->url ) ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
+  // Check if menu item is in main menu
+
+    if ( $depth == 0 && $has_children > 0  ) {
+        // These lines adds your custom class and attribute
+        $attributes .= ' class="dropdown-toggle"';
+        $attributes .= ' data-toggle="dropdown"';
+    }
+    $item_output = $args->before;
+    $item_output .= '<a'. $attributes .'>';
+    $item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
+   // Add the caret if menu level is 0
+    if ( $depth == 0 && $has_children > 0  ) {
+        $item_output .= ' <b class="caret"></b>';
+    }
+   $item_output .= '</a>';
+    $item_output .= $args->after;
+    $output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
+  }
+}
+
+add_filter('nav_menu_css_class','add_parent_css',10,2);
+function  add_parent_css($classes, $item){
+     global  $dd_depth, $dd_children;
+     $classes[] = 'depth'.$dd_depth;
+     if($dd_children)
+         $classes[] = 'dropdown';
+       
+    return $classes;
+}
+
+//Add class to parent pages to show they have subpages (only for automatic wp_nav_menu)
+
+function add_parent_class( $css_class, $page, $depth, $args )
+{
+   if ( ! empty( $args['has_children'] ) )
+       $css_class[] = 'dropdown';
+   return $css_class;
+}
+add_filter( 'page_css_class', 'add_parent_class', 10, 4 );
+
+function add_search_to_wp_menu ( $items, $args ) {
+  if( 'primary' === $args -> theme_location ) {
+$items .= '<li class="menu-search"><span class="sep"></span><i class="fa fa-search search-btn"></i>
+                <div class="search-box">';
+
+                
+                
+                  
+
+                
+           
+$items .= '<form method="get" action="' . get_bloginfo('home') . '/">
+
+<div class="input-group">
+<input type="text" placeholder="Search" class="form-control">
+<span class="input-group-btn">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                      </span>
+</div></form>';
+$items .= '</div> </li>';
+  }
+return $items;
+}
+add_filter('wp_nav_menu_items','add_search_to_wp_menu',10,2);
 /**
  * Add a `screen-reader-text` class to the search form's submit button.
  *

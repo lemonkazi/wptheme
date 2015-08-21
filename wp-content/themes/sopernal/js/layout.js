@@ -312,6 +312,9 @@ var Layout = function () {
             handleSubMenuExt();
             handleMobiToggler();
         },
+        menusearch: function () {
+         handleSearch();
+        },
 
         initUniform: function (els) {
             if (els) {
